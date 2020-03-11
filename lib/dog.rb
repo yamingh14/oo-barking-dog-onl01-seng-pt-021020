@@ -17,3 +17,5 @@ class Dog
   #   @bark
   # end
 end
+fido = Dog.new
+fido.bark = "woof!"
