@@ -1,7 +1,7 @@
 class Dog
   attr_accessor :bark
 
-  def initialize(fido)
+  def initialize
     @bark = fido
   end
 
