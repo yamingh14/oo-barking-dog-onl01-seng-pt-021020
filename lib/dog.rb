@@ -1,5 +1,5 @@
 class Dog
-  # attr_accessor :bark
+  attr_accessor :bark
 
   def name=(name)
     @name = name
@@ -9,13 +9,13 @@ class Dog
     @name
   end
 
-  def bark=(bark)
-    @bark = bark
-  end
-
-  def bark
-    @bark
-  end
+  # def bark=(bark)
+  #   @bark = bark
+  # end
+  # 
+  # def bark
+  #   @bark
+  # end
 end
 fido = Dog.new
 # fido.bark = "woof!"
